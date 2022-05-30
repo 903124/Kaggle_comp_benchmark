@@ -10,3 +10,16 @@ Benchmark of tabular dataset using kaggle competition
 | Gradient boosting (untuned)  | [0.78889 / 0.79300 / 0.78927](https://www.kaggle.com/code/s903124/base-model-with-0-804-auc-on-home-credit-untuned) | [0.94401 / 0.950708 / 0.927236](https://www.kaggle.com/code/s903124/xgb-fraud-with-magic-training-untuned)  | [0.789344 / 0.80332 / 0.78300](https://www.kaggle.com/code/s903124/to-the-top-v2-training-untuned)   | 0.27938 / 0.27799 / 0.28117    |
 | Gradient boosting (original) | [0.79848 / 0.80028 / 0.79741](https://www.kaggle.com/code/s903124/base-model-with-0-804-auc-on-home-credit-training) | [0.96272 / 0.959638 / 0.931280](https://www.kaggle.com/code/s903124/xgb-fraud-with-magic-training)  | [0.841088 / 0.83987 / 0.82655](https://www.kaggle.com/code/s903124/to-the-top-v2-training)   | 0.28731 / 0.28553 / 0.29039    |
 
+## Description
+The above table attempt to provide some benchmark of gradient boosting-friendly task for tabular data using past Kaggle solutions that acheive a high score using a gradient boosting model. Thanks for @CPMP and @nyanp on Kaggle for codes snippets used in training, and original authors for providing valuable solution
+
+Original solution
+
+Default Risk: https://www.kaggle.com/code/hikmetsezen/base-model-with-0-804-auc-on-home-credit 
+
+Fraud Detection: https://www.kaggle.com/code/cdeotte/xgb-fraud-with-magic-0-9600
+
+Customer Satisfaction: https://www.kaggle.com/code/zfturbo/to-the-top-v2
+
+Safe Driver Prediction: https://www.kaggle.com/code/xiaozhouwang/2nd-place-lightgbm-solution/
+
